@@ -1,19 +1,12 @@
-TypeScript tsconfig.json Demo
-============================
+TypeScript Rethinkdb Demo
+=========================
 
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+RehinkDB是当年的明星项目，可惜后来没有找到合适的商业模式，公司倒闭，后来交给了社区。
+虽然看起来开发进度不太理想，但是我试了一下，它启动之后的http dashboard很有用，api看着也不难，
+所以想试一下。
 
 ```
 npm install
-npm run tsc
-```
-
-或者使用`ts-node`:
-
-```
 npm run demo
 ```
 
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>
